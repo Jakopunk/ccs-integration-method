@@ -1,0 +1,80 @@
+body {
+  font-family: "Century Gothic", sans-serif;
+  background: #ffffff;
+  color: #222;
+  margin: 0;
+  padding: 2em;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.phase, .subphase {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-left: 6px solid #3e7f54;
+  background: #f9fdfb;
+  cursor: pointer;
+}
+
+.phase h2, .subphase h3 {
+  margin: 0;
+}
+
+.content {
+  margin-top: 1em;
+}
+
+.collapsed > .content {
+  display: none;
+}
+
+.example {
+  background: #eafaf1;
+  padding: 0.5em;
+  border-left: 3px solid #6bbb8d;
+  margin-top: 1em;
+}
+
+#content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+#uml-container svg {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+
+#info-panel {
+  flex: 1 1 auto;
+  background: #f7fdf8;
+  padding: 1.5rem;
+  border-left: 4px solid #3e7f54;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+#info-panel h2 {
+  margin-top: 0;
+  color: #2d5d3b;
+}
+
+.example-box {
+  margin-top: 1em;
+  background: #e9f7ec;
+  padding: 1em;
+  border-left: 4px solid #6bbb8d;
+}
