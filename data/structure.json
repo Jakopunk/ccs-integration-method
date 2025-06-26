@@ -17,58 +17,57 @@
     "link": "#ch:5.2"
   },
     {
-        "id": "01_1_init",
-        "title": "Initial Assessment",
-        "svg": "assets/svg/01_1_CCS_Initial_Assessment.svg",
-        "group": "req",
-        "parent": "req",
-        "color": "#77b88a",
-        "umlWidth": "60%"
+      "id": "01_1_init",
+      "title": "Initial Assessment",
+      "svg": "assets/svg/01_1_CCS_Initial_Assessment.svg",
+      "group": "req",
+      "parent": "req",
+      "color": "#77b88a",
+      "umlWidth": "60%"
     },
     {
-        "id": "01_2_pcf",
-        "title": "PCF Evaluation",
-        "svg": "assets/svg/01_2_PCF_Evaluation.svg",
-        "group": "req",
-        "parent": "req",
-        "color": "#77b88a",
-        "link": "#ch:5.2.2.2"
+      "id": "01_2_pcf",
+      "title": "PCF Evaluation",
+      "svg": "assets/svg/01_2_PCF_Evaluation.svg",
+      "group": "req",
+      "parent": "req",
+      "color": "#77b88a",
+      "umlWidth": "40%"
     },
     {
-        "id": "01_3_params",
-        "title": "Determine CCS Parameters",
-        "svg": "assets/svg/01_3_CCS_Params.svg",
-        "group": "req",
-        "parent": "req",
-        "color": "#77b88a"
+      "id": "01_3_params",
+      "title": "Determine CCS Parameters",
+      "svg": "assets/svg/01_3_CCS_Params.svg",
+      "group": "req",
+      "parent": "req",
+      "color": "#77b88a",
+      "umlWidth": "40%"
     },
     {
-    "id": "01_4_neutrality",
-    "title": "Evaluate CO₂ Neutrality",
-    "svg": "assets/svg/01_4_CCS_Neutrality.svg",
-    "group": "req",
-    "parent": "req",
-    "color": "#77b88a",
-    "link": "#ch:5.2.2.4"
+      "id": "01_4_neutrality",
+      "title": "Evaluate CO₂ Neutrality",
+      "svg": "assets/svg/01_4_CCS_Neutrality.svg",
+      "group": "req",
+      "parent": "req",
+      "color": "#77b88a",
+      "umlWidth": "40%"
     },
     {
-    "id": "01_5_rank",
-    "title": "Ranking and Selection",
-    "svg": "",  
-    
-    "group": "req",
-    "parent": "req",
-    "color": "#77b88a",
-    "link": "#ch:5.2.2.5"
+      "id": "01_5_rank",
+      "title": "Ranking and Selection",
+      "svg": "assets/svg/01_req.svg",  
+      "group": "req",
+      "parent": "req",
+      "color": "#77b88a",
+      "umlWidth": "40%"
     },
     {
-    "id": "01_6_select",
-    "title": "Final Selection",
-    "svg": "", 
-    "group": "req",
-    "parent": "req",
-    "color": "#77b88a",
-    "link": "#ch:5.2.2.5"
+      "id": "01_6_select",
+      "title": "Final Selection",
+      "svg": "assets/svg/01_req.svg", 
+      "group": "req",
+      "parent": "req",
+      "color": "#77b88a"
     },
   {
     "id": "sol",
