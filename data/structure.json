@@ -1,0 +1,97 @@
+[
+  {
+    "id": "nav",
+    "title": "CCS Method Overview",
+    "svg": "assets/svg/00_navigation.svg",
+    "group": "root",
+    "color": "#d7d7cd",
+    "link": "#ch:5"
+  },
+  {
+    "id": "req",
+    "title": "Requirement Phase",
+    "svg": "assets/svg/01_req.svg",
+    "group": "nav",
+    "parent": "nav",
+    "color": "#3e7f54",
+    "link": "#ch:5.2"
+  },
+    {
+        "id": "01_1_init",
+        "title": "Initial Assessment",
+        "svg": "assets/svg/01_1_CCS_Initial_Assessment.svg",
+        "group": "req",
+        "parent": "req",
+        "color": "#77b88a",
+        "umlWidth": "60%"
+    },
+    {
+        "id": "01_2_pcf",
+        "title": "PCF Evaluation",
+        "svg": "assets/svg/01_2_PCF_Evaluation.svg",
+        "group": "req",
+        "parent": "req",
+        "color": "#77b88a",
+        "link": "#ch:5.2.2.2"
+    },
+    {
+        "id": "01_3_params",
+        "title": "Determine CCS Parameters",
+        "svg": "assets/svg/01_3_CCS_Params.svg",
+        "group": "req",
+        "parent": "req",
+        "color": "#77b88a"
+    },
+    {
+    "id": "01_4_neutrality",
+    "title": "Evaluate CO₂ Neutrality",
+    "svg": "assets/svg/01_4_CCS_Neutrality.svg",
+    "group": "req",
+    "parent": "req",
+    "color": "#77b88a",
+    "link": "#ch:5.2.2.4"
+    },
+    {
+    "id": "01_5_rank",
+    "title": "Ranking and Selection",
+    "svg": "",  
+    
+    "group": "req",
+    "parent": "req",
+    "color": "#77b88a",
+    "link": "#ch:5.2.2.5"
+    },
+    {
+    "id": "01_6_select",
+    "title": "Final Selection",
+    "svg": "", 
+    "group": "req",
+    "parent": "req",
+    "color": "#77b88a",
+    "link": "#ch:5.2.2.5"
+    },
+  {
+    "id": "sol",
+    "title": "Solution Exploration",
+    "svg": "assets/svg/02_sol.svg",
+    "group": "nav",
+    "parent": "nav",
+    "color": "#3e7f54"
+  },
+  {
+    "id": "dev",
+    "title": "Development Phase",
+    "svg": "assets/svg/03_dev.svg",
+    "group": "nav",
+    "parent": "nav",
+    "color": "#497399"
+  },
+  {
+    "id": "int",
+    "title": "Product Integration",
+    "svg": "assets/svg/04_int.svg",
+    "group": "nav",
+    "parent": "nav",
+    "color": "#497399"
+  }
+]
