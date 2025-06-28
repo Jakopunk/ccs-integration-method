@@ -162,3 +162,18 @@ window.addEventListener("load", () => {
     })
     .catch(err => console.error("❌ Fehler beim Laden der JSON:", err));
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.footer-links a[data-id]').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const phaseId = this.getAttribute('data-id');
+      const phase = diagramData.find(d => d.id === phaseId);
+      if (phase) {
+        loadSVG(phase.svg, phase.id);
+      } else {
+        alert("Phase '" + phaseId + "' nicht gefunden!");
+      }
+    });
+  });
+});

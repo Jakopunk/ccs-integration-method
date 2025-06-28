@@ -1,0 +1,55 @@
+<footer class="color-legend">
+  <div style="margin-bottom:0.7em;">
+    <strong>Palette: Sand & Green Tones</strong>
+  </div>
+  <div class="color-row">
+    <span class="color-dot" style="background:#d8cab8" title="Sand 1"></span>
+    <span class="color-dot" style="background:#f1e7d4" title="Sand 2"></span>
+    <span class="color-dot" style="background:#b5b078" title="Olive Sand"></span>
+    <span class="color-dot" style="background:#a2b29f" title="Sage Green"></span>
+    <span class="color-dot" style="background:#7c9a7c" title="Soft Green"></span>
+    <span class="color-dot" style="background:#3e7f54" title="Classic Green"></span>
+    <span class="color-dot" style="background:#b7d7c6" title="Light Mint"></span>
+    <span class="color-dot" style="background:#e6e2c3" title="Ivory"></span>
+    <span class="color-dot" style="background:#e0d6ba" title="Beige"></span>
+    <span class="color-dot" style="background:#b6a77c" title="Earth"></span>
+  </div>
+</footer>
+
+%css
+footer.color-legend {
+  background: var(--primary);
+  padding: 1.2em 0 0.6em 0;
+  font-size: 1em;
+  border-top: 1px solid #ccc;
+  text-align: left;
+}
+
+.color-pairs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em 2.5em;
+  align-items: center;
+}
+
+.color-pair {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-bottom: 0.5em;
+}
+
+.color-dot {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #bbb;
+  display: inline-block;
+  margin-right: 0.1em;
+}
+
+.color-label {
+  margin-left: 0.5em;
+  color: #333;
+  font-size: 0.97em;
+}

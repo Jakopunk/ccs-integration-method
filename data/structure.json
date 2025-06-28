@@ -54,7 +54,7 @@
     },
     {
       "id": "01_5_rank",
-      "title": "Ranking and Selection",
+      "title": "CCS Ranking",
       "svg": "assets/svg/01_req.svg",  
       "group": "req",
       "parent": "req",
@@ -63,7 +63,7 @@
     },
     {
       "id": "01_6_select",
-      "title": "Final Selection",
+      "title": "CCS Selection",
       "svg": "assets/svg/01_req.svg", 
       "group": "req",
       "parent": "req",

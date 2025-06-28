@@ -46,44 +46,43 @@ header h1 {
 /* ===============================
    Footer
 ================================= */
-
-footer.color-legend {
+.site-footer {
   background: var(--primary);
-  padding: 1.2em 0 0.6em 0;
-  font-size: 1em;
+  padding: 1.5rem;
+  font-size: 0.9rem;
   border-top: 1px solid #ccc;
-  text-align: left;
+  color: #f1e7d4;
 }
 
-.color-pairs {
+.footer-columns {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2em 2.5em;
-  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
 }
 
-.color-pair {
-  display: flex;
-  align-items: center;
-  gap: 0.6em;
-  margin-bottom: 0.5em;
+.footer-columns section {
+  flex: 1 1 220px;
 }
 
-.color-dot {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  border: 2px solid #bbb;
-  display: inline-block;
-  margin-right: 0.1em;
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0 0;
 }
 
-.color-label {
-  margin-left: 0.5em;
-  color: #333;
-  font-size: 0.97em;
+.footer-links li {
+  margin-bottom: 0.3rem;
 }
 
+.footer-links a {
+  text-decoration: none;
+  color: #f1e7d4;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
 
 /* ===============================
    Layout: Diagram + Info Side by Side
