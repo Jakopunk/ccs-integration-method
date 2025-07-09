@@ -42,6 +42,36 @@ header h1 {
   margin: 0 0 0.5rem 0;
   font-size: 2rem;
 }
+.site-header {
+  background: var(--primary);
+  color: #f1e7d4;
+  padding: 2rem 1rem;
+}
+
+/* Flexbox-Layout für Logo + Text */
+.header-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* zentriert den Textblock */
+}
+
+/* Logo links außen, ohne das Layout zu stören */
+.logo-left {
+  position: absolute;
+  left: 1rem;
+  height: 60px;
+}
+
+/* Text bleibt zentriert */
+.header-text {
+  text-align: center;
+}
+
+.header-text h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
 
 /* ===============================
    Footer
